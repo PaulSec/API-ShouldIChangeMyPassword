@@ -6,8 +6,8 @@ ShouldIChangeMyPassword
 This code has been developed to check compromised mails and is really easy to use: 
 
 ```python 
-from sicmpAPI import SicmpAPI
-res = SicmpAPI().is_compromised('myprivatemail@mypersonaldomain.com')
+from sicmypAPI import SicmypAPI
+res = SicmypAPI().is_compromised('myprivatemail@mypersonaldomain.com')
 print res  # False
 ```
 
